@@ -10,8 +10,6 @@ metadata:
     - url: https://example.com/user
       title: Examples Users
       icon: user
-  annotations: 
-    backstage.io/kubernetes-id: node-app
 spec:
   type: website
   lifecycle: experimental
