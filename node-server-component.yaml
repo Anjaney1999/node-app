@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-lookup
-  description: Artist Lookup
+  name: node-app
+  description: Node APP
   tags:
-    - java
-    - data
+    - expressJS
+    - node
   links:
     - url: https://example.com/user
       title: Examples Users
