@@ -1,5 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+namespace: default
+annotations: 
+  backstage.io/kubernetes-id: node-app
 metadata:
   name: node-app
   description: Node App
