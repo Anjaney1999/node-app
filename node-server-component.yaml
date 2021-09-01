@@ -1,8 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 namespace: default
-annotations: 
-  backstage.io/kubernetes-id: node-app
 metadata:
   name: node-app
   description: Node App
@@ -12,6 +10,8 @@ metadata:
     - url: https://example.com/user
       title: Examples Users
       icon: user
+  annotations: 
+    backstage.io/kubernetes-id: node-app
 spec:
   type: website
   lifecycle: experimental
