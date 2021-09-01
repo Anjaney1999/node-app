@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: node-app
+  description: Custom Node App
+  tags:
+    - Node
+    - ExpressJS
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Anjie
+  system: artist-engagement-portal
+  dependsOn: ['resource:artists-db']
